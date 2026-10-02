@@ -164,7 +164,7 @@ Takes `ST,GS,+   1.250 kg`, `US,GS,-0,015 kg`, `1.250`, `1250 g`, `2.000 lb`. Re
 ```bash
 git clone https://github.com/Chidaruma696/Nitori.git
 cd Nitori
-node --test test/         # parser, stabilizer, watchdog and full weighings with the simulator
+node --test test/*.test.js # parser, stabilizer, watchdog and full weighings with the simulator
 python scripts/build.py   # rebuilds dist/ (ESM + UMD) with no toolchain
 ```
 

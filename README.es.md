@@ -158,7 +158,7 @@ Acepta `ST,GS,+   1.250 kg`, `US,GS,-0,015 kg`, `1.250`, `1250 g`, `2.000 lb`. D
 ```bash
 git clone https://github.com/Chidaruma696/Nitori.git
 cd Nitori
-node --test test/         # parser, estabilizador, vigilante y pesadas completas con el simulador
+node --test test/*.test.js # parser, estabilizador, vigilante y pesadas completas con el simulador
 python scripts/build.py   # regenera dist/ (ESM + UMD) sin toolchain
 ```
 

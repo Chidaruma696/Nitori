@@ -16,7 +16,7 @@
   "files": ["dist", "src", "README.md", "LICENSE"],
   "scripts": {
     "build": "python scripts/build.py",
-    "test": "node --test test/"
+    "test": "node --test test/*.test.js"
   },
   "keywords": ["web-serial", "scale", "torrey", "pos", "weight", "labels"],
   "author": "chidaruma696",
